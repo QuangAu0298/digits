@@ -1,7 +1,21 @@
+:root {
+  --nat-navbar-bg: #ae169a;
+  --nat-navbar-bg-color: #b621a2;
+  --nat-navbar-bg-rgb: 255, 110, 246;
+  --nat-navbar-text-color: rgb(232, 232, 232);
+  --nat-navbar-text-highlight: 234, 255, 0;
+  --nat-navbar-highlight-text: 234, 255, 0;
+  --nat-navbar-highlight-bg: 234, 255, 0;
+}
+
 html,
 body {
   --bs-light-rgb: 236, 236, 236;
+  --bs-dark: var(--nat-navbar-bg);
+  --bs-dark-rgb: var(--nat-navbar-bg-rgb);
   box-sizing: border-box;
+  background-image: url(/hot-pink-fur.jpg);
+  background-size: cover;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -11,4 +25,18 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+}
+body .navbar {
+  --bs-navbar-active-color: var(--nat-navbar-highlight-text);
+  --bs-navbar-brand-color: var(--nat-navbar-text-color);
+  --bs-navbar-brand-hover-color: var(--nat-navbar-highlight-text);
+  --bs-navbar-color: var(--nat-navbar-text-color);
+  --bs-navbar-hover-color: var(--nat-navbar-highlight-text);
+}
+.bg-dark a.dropdown-item {
+  color: var(--nat-navbar-bg);
+}
+
+footer, footer a {
+  color: var(--nat-navbar-text-color);
 }
