@@ -1,7 +1,17 @@
 html,
+:root {
+  --nat-navbar-bg: #ECECEC;
+  --nat-navbar-bg-rgb: 200, 200, 160;
+  --nat-navbar-text-color: white;
+}
+
 body {
   --bs-light-rgb: 236, 236, 236;
+  --bs-dark: var(--nat-navbar-bg);
+  --bs-dark-rgb: var(--nat-navbar-bg-rgb);
   box-sizing: border-box;
+  background-image: url(/bg_background.jpg);
+  background-size: cover;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -11,4 +21,20 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+body .navbar {
+  --bs-navbar-active-color: var(--nat-navbar-highlight-text);
+  --bs-navbar-brand-color: var(--nat-navbar-text-color);
+  --bs-navbar-brand-hover-color: var(--nat-navbar-highlight-text);
+  --bs-navbar-color: var(--nat-navbar-text-color);
+  --bs-navbar-hover-color: var(--nat-navbar-highlight-text);
+}
+
+.bg-dark a.dropdown-item {
+  color: var(--nat-navbar-bg);
+}
+
+footer, footer a {
+  color: var(--nat-navbar-text-color);
 }
