@@ -15,14 +15,6 @@ export const EditStuffSchema = Yup.object({
   owner: Yup.string().required(),
 });
 
-export interface Contact {
-  firstName: string;
-  lastName: string;
-  address: string;
-  image: string;
-  description: string;
-}
-
 export const AddContactSchema = Yup.object({
   firstName: Yup.string().required(),
   lastName: Yup.string().required(),
@@ -41,3 +33,11 @@ export const EditContactSchema = Yup.object({
   description: Yup.string().required(),
   owner: Yup.string().required(),
 });
+
+export interface Contact {
+  firstName: string;
+  lastName: string;
+  address: string;
+  image: string;
+  description: string;
+}
