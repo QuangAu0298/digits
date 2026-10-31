@@ -32,7 +32,7 @@ export const AddContactSchema = Yup.object({
   owner: Yup.string().required(),
 });
 
-export const EditContactfSchema = Yup.object({
+export const EditContactSchema = Yup.object({
   id: Yup.number().required(),
   firstName: Yup.string().required(),
   lastName: Yup.string().required(),
