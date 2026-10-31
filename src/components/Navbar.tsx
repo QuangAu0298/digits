@@ -20,10 +20,10 @@ const NavBar: React.FC = () => {
           <Nav className="me-auto justify-content-start">
             {currentUser && (
               <>
-                <Nav.Link id="add-stuff-nav" href="/add" active={pathName === '/add'}>
-                  Add Stuff
+                <Nav.Link id="add-contact-nav" href="/add" active={pathName === '/add'}>
+                  Add Contact
                 </Nav.Link>
-                <Nav.Link id="list-stuff-nav" href="/list" active={pathName === '/list'}>
+                <Nav.Link id="list-contact-nav" href="/list" active={pathName === '/list'}>
                   List Contacts
                 </Nav.Link>
               </>

@@ -1,5 +1,5 @@
 import { loggedInProtectedPage } from '@/lib/page-protection';
-import AddStuffForm from '@/components/AddStuffForm';
+import AddContactForm from '@/components/AddContactForm';
 import { auth } from '@/lib/auth';
 
 const AddStuff = async () => {
@@ -12,7 +12,7 @@ const AddStuff = async () => {
   );
   return (
     <main>
-      <AddStuffForm />
+      <AddContactForm />
     </main>
   );
 };
