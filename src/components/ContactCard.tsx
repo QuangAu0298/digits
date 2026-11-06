@@ -5,7 +5,7 @@ import { Card, Image, ListGroup } from 'react-bootstrap';
 import NoteItem from './NoteItem';
 import AddNoteForm from './AddNoteForm';
 
-/* Renders a single row in the List Stuff table. See list/page.tsx. */
+/* Renders a card element containing contact information. See list/page.tsx. */
 const ContactCard = ({ contact, notes }: { contact: Contact, notes: Note[] }) => (
   <Card className='h-100'>
     <Card.Header>

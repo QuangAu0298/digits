@@ -21,7 +21,7 @@ const onSubmit = async (note: { note: string; contactId: number, owner: string }
 
 const AddNoteForm = ({ contact }: {contact: Contact}) => {
   const { data: session, status } = useSession();
-  // console.log('AddStuffForm', status, session);
+  // console.log('AddNoteForm', status, session);
   const currentUser = session?.user?.email || '';
   const {
     register,

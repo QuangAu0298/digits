@@ -3,20 +3,15 @@
     { "email": "admin@foo.com", "password": "changeme", "role": "ADMIN" },
     { "email": "john@foo.com", "password": "changeme" }
   ],
-  "defaultData": [
-    { "name": "Basket", "quantity": 3, "owner": "john@foo.com", "condition": "excellent" },
-    { "name": "Bicycle", "quantity": 2, "owner": "john@foo.com", "condition": "poor" },
-    { "name": "Banana", "quantity": 2, "owner": "admin@foo.com", "condition": "good" },
-    { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "excellent" }
-  ],
+  
   "defaultContacts": [
     {
-    "firstName": "Philip",
-    "lastName": "Johnson",
-    "address": "POST 307, University of Hawaii",
-    "image": "https://github.com/philipmjohnson.png",
-    "description": "I am a Professor of Information and Computer Sciences at the University of Hawaii, Director of the Collaborative Software Development Laboratory, and the CEO of OpenPowerQuality.com.",
-    "owner": "john@foo.com"
+      "firstName": "Philip",
+      "lastName": "Johnson",
+      "address": "POST 307, University of Hawaii",
+      "image": "https://github.com/philipmjohnson.png",
+      "description": "I am a Professor of Information and Computer Sciences at the University of Hawaii, Director of the Collaborative Software Development Laboratory, and the CEO of OpenPowerQuality.com.",
+      "owner": "john@foo.com"
     },
     {
       "firstName": "Henri",
