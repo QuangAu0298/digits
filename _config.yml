@@ -2,7 +2,7 @@ title: Digits
 description: A Next.js web application using nextjs-application-template demonstrating user authentication, database integration, and webpage development
 google_analytics:
 show_downloads: true
-theme: jekyll-theme-architect
+theme: jekyll-theme-midnight
 
 gems:
   - jekyll-mentions
