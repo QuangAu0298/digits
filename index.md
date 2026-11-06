@@ -1,6 +1,6 @@
 <img src="doc/landing-page.png">
 
-nextjs-application-template is a sample Next.js 16 application that illustrates:
+Digits is a sample Next.js 16 application that illustrates:
 
 - A standard directory layout using 'src/' as recommended in the [Next.js Project Structure](https://nextjs.org/docs/getting-started/project-structure) guide.
 - [Bootstrap 5 React](https://react-bootstrap.github.io/) for user interface.
@@ -32,9 +32,7 @@ $
 
 ```
 
-Second, go to [https://github.com/ics-software-engineering/nextjs-application-template](https://github.com/ics-software-engineering/nextjs-application-template), and click the "Use this template" button. Complete the dialog box to create a new repository that you own that is initialized with this template's files.
-
-Third, go to your newly created repository, and click the "Clone or download" button to download your new GitHub repo to your local file system. Using [GitHub Desktop](https://desktop.github.com/) is a great choice if you use MacOS or Windows.
+Second, go to [https://github.com/QuangAu0298/digits](https://github.com/QuangAu0298/digits), and click the "Clone or download" button to download this GitHub repo to your local file system. Using [GitHub Desktop](https://desktop.github.com/) is a great choice if you use MacOS or Windows.
 
 Fourth, cd into the directory of your local copy of the repo, and install third party libraries with:
 

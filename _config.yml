@@ -1,8 +1,8 @@
-title: nextjs-application-template
-description: A template for quickly starting Next.js application development
+title: Digits
+description: A Next.js web application using nextjs-application-template demonstrating user authentication, database integration, and webpage development
 google_analytics:
 show_downloads: true
-theme: jekyll-theme-cayman
+theme: jekyll-theme-architect
 
 gems:
   - jekyll-mentions
