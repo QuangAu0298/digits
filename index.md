@@ -1,4 +1,4 @@
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/landing-page.png)
+<img src="doc/landing-page.png">
 
 nextjs-application-template is a sample Next.js 16 application that illustrates:
 
@@ -302,7 +302,7 @@ By default, each user only sees the Contact that they have created. However, the
 
 When you retrieve the app at http://localhost:3000, this is what should be displayed:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/landing-page.png)
+<img src="doc/landing-page.png">
 
 The next step is to use the Login menu to either Login to an existing account or register a new account.
 
@@ -310,19 +310,19 @@ The next step is to use the Login menu to either Login to an existing account or
 
 Clicking on the Login link, then on the Sign In menu item displays this page:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/signin-page.png)
+<img src="doc/signin-page.png">
 
 #### Register page
 
 Alternatively, clicking on the Login link, then on the Sign Up menu item displays this page:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/register-page.png)
+<img src="doc/register-page.png">
 
 #### Landing (after Login) page, non-Admin user
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/landing-after-login-page.png)
+<img src="doc/landing-after-login-page.png">
 
 You can now add new Contacts, and list the Contacts you have created. Note you cannot see any Contacts created by other users.
 
@@ -330,13 +330,13 @@ You can now add new Contacts, and list the Contacts you have created. Note you c
 
 After logging in, here is the page that allows you to add new Contact:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/add-contact-page.png)
+<img src="doc/add-contact-page.png">
 
 #### List Contact page
 
 After logging in, here is the page that allows you to list all the Contacts you have created:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/list-contact-page.png)
+<img src="doc/list-contact-page.png">
 
 You click the "Edit" link on each Contact in the list page to go to the Edit Contact page, shown next.
 
@@ -344,19 +344,19 @@ You click the "Edit" link on each Contact in the list page to go to the Edit Con
 
 After clicking on the "Edit" link associated with an item, this page displays that allows you to change and save it:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/edit-contact-page.png)
+<img src="doc/edit-contact-page.png">
 
 #### Landing (after Login), Admin user
 
 You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/admin-landing-page.png)
+<img src="doc/admin-landing-page.png">
 
 #### Admin page (list all users contacts)
 
 To provide a simple example of a "super power" for Admin users, the Admin page lists all of the Contacts by all of the users:
 
-![](https://github.com/ics-software-engineering/nextjs-application-template/raw/main/doc/admin-list-contacts-page.png)
+<img src="doc/admin-list-contacts-page.png">
 
 Note that non-admin users cannot get to this page, even if they type in the URL by hand.
 ### Tables
